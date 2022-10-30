@@ -25,21 +25,27 @@
                     <li class="menu-item"><a href="#" class="menu-link">Оставить заявку</a></li>
                 </ul>
             </div> 
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
         <div class="subheader">
             <div class="container">
                 <div class="row">
-                    <div class="col-md4 offset-md-1">
+                    <div class="col-6 col-md-4 offset-md-1">
                         <a href="#" class="subheader-logo">
                             <img src="./icons/logo.png" alt="logo">
                         </a>
-                        <div class="subheader-offical">Официальный партнер Uber в Москве</div>
+                        <div class="subheader-official">Официальный партнер Uber в Москве</div>
                     </div>
-                    <div class="col-md-2 offset-md-2">
+                    <div class="xs-hidden col-6 col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                         <div class="subheader-call">Звоните нам ежедневно</div>
                         <a href="tel:+74957970988" class="subheader-phone">8 495 797 09 88</a>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-6 col-md-3">
+                        <a href="tel:+74957970988" class="xs-visible subheader-phone">8 495 797 09 88</a>
                         <button class="subheader-btn">заказать звонок</button>
                     </div>
                 </div>
@@ -49,7 +55,7 @@
     <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
                     <h1 class="promo-header">КОМПАНИЯ UBER PARTNERS!</h1>
                     <h2 class="promo-subheader">ПРИГЛАШАЕМ ВОДИТЕЛЕЙ! НА СВОЕМ АВТО!</h2>
                     <div class="promo-descr">
@@ -301,18 +307,20 @@
                         </ul>
                     </div>
                 </div>
-                <div class="require-block require-block-nmb warning">
-                    <div class="require-title">
-                        ДОКУМЕНТЫ:
+                <div class="col-md-6">
+                    <div class="require-block require-block-nmb warning">
+                        <div class="require-title">
+                            ДОКУМЕНТЫ:
+                        </div>
+                        <ul class="require-list">
+                            <li>Права 2 стороны</li>
+                            <li>Паспорт лицевая сторона</li>
+                            <li>СтС</li>
+                            <li>Лицензия (если есть)</li>
+                            <li>Номер телефона</li>
+                            <li>Номер карты для перечисления денег(указать в письме)!</li>
+                        </ul>
                     </div>
-                    <ul class="require-list">
-                        <li>Права 2 стороны</li>
-                        <li>Паспорт лицевая сторона</li>
-                        <li>СтС</li>
-                        <li>Лицензия (если есть)</li>
-                        <li>Номер телефона</li>
-                        <li>Номер карты для перечисления денег(указать в письме)!</li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -366,17 +374,18 @@
             <div>
                 <div class="footer-mobile">
                     <a href="#">
-                        <img src="img/app_store.png" alt="App Store">
+                        <img src="img/app_store.png" width="50" height="20" alt="App Store">
                     </a>
                     <a href="#">
-                        <img src="img/google_play.png" alt="Google play">
+                        <img src="img/google_play.png" width="50" height="20"  alt="Google play">
                     </a>
                     <a href="#">
-                        <img src="img/windows_store.png" alt="Windows store">
+                        <img src="img/windows_store.png" width="50" height="20"  alt="Windows store">
                     </a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
